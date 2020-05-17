@@ -1,0 +1,14 @@
+schema {
+  query: Query
+}
+
+type Query {
+  findAll: [Data]
+}
+
+type Data {
+  id: String!
+  content: String!
+  date: String!
+}
+
