@@ -6,6 +6,11 @@ type Query {
   findAll: [Data]
 }
 
+type Mutation{
+  createOne(content: String!): Data
+  updateOne(id:String! , content: String!): Data
+}
+
 type Data {
   id: String!
   content: String!
