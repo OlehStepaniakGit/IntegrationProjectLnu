@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class WebDriverService {
-    private static final String SOURCE = "https://www.pravda.com.ua/news/";
-    private static final String XPATH = "/html/body/div/div[4]/div/div/div[1]/div/div/div[3]/div[2]";
+    private static final String SOURCE = "https://zaxid.net/novini_lvova_tag50956/";
+    private static final String XPATH = "/html/body/div[1]/div/section/div/div/div[1]/div[1]/div[2]/ul[1]/li";
     private static final int LOAD_COUNT = 10;
 
     private ChromeOptions options = new ChromeOptions().addArguments("--headless");

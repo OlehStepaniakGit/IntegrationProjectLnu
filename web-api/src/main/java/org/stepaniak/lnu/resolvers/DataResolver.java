@@ -16,6 +16,7 @@ public class DataResolver implements GraphQLQueryResolver {
     }
 
     public List<Data> findAll() {
+        List<Data> find = this.dataService.findAll();
         return this.dataService.findAll();
     }
 }
